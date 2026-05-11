@@ -1,18 +1,28 @@
 var haslo = "antek";
 
+
+const wpisane_haslo = document.getElementById("pass1")
+
+
 function sprawdz_haslo() {
-    if(document.getElementById('pass1').value != haslo) {
-        alert('źle');
-        return false;
+    const haslo = document.getElementById("pass1").value;
+
+    if(haslo == "antek") {
+        alert('niepotrzebny alert');
+        location.href="./podstrona.html";
     }
 
-    if(document.getElementById('pass1').value == haslo) {
-        alert('niepotrzebny alert');
-        alert('niepotrzebny alert 2');
-        alert('niepotrzebny alert 3');
+    else if(haslo == "haslo") {
+        //alert('ndaegt');
+        location.href="./podstrona1.html";
+    }
+
+    else if(haslo == "maslo") {
+        //alert('ndaegt');
+        location.href="./podstrona2.html";
     }
 }
 
 function pokaz_alert_z_dupy() {
-    alert('siema')
+    alert('guzik')
 }
