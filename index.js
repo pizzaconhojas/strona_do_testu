@@ -50,6 +50,10 @@ function sprawdz_haslo() {
         location.href="./happy_birthday.html"
     }
 
+    else if(haslo == "pik") { //krzysiu bardzo chcial zeby haslem bylo "𝛑k" ale znaku liczby pi strona chyba nie akceptuje bo nie dzialalo. Tak czy siak wydaje mi sie, ze dasz sobie rade z odnalezieniem tej strony
+        location.href="./jegahnohrahfjgdkki.html"
+    }
+
      else if(haslo == "") {
         //strona ode mnie
         location.href="./ludwik.html"
